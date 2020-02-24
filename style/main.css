@@ -2,14 +2,12 @@
   margin: 0;
   box-sizing: border-box;
 }
-
-#layout {
-  width: 50%;
-  margin: 10px auto;
-}
-
+/* SFONDO */
 body {
   background: grey;
+}
+
+#wall {
   margin: auto;
   width: 80%;
 }
@@ -17,21 +15,19 @@ body {
 header {
   padding-top: 5px;
 }
-
-
-
-#img_sfondo{
+/* SFONDO HEADER */
+#img_sfondo {
   height: 250px;
   background: green;
   border: 6px solid black;
 }
-
+/* ATTRIBUTI DEL MENU' */
 .menutab li {
   display: inline-block;
   vertical-align: middle;
 }
 
-.menutab a{
+.menutab a {
   display: inline-block;
   margin:0 5px;
   color: black;
@@ -43,8 +39,8 @@ header {
   line-height: 50px;
   text-align: center;
 }
-
-.clearfix{
+/* CLEARFIX FOOTER */
+.clearfix {
   content:'';
   display: table;
   clear: both;
@@ -54,18 +50,18 @@ header {
   width: 100%;
   margin: 10px auto;
 }
-
+/* ATTRIBUTI DELLE COLONNE */
 .col-sx,
 .col-cent,
-.col-dx{
+.col-dx {
   float: left;
 }
 
-.col-sx{
+.col-sx {
   width: 25%;
 }
 
-.sidebar{
+.sidebar {
   background: brown;
   border-radius: 15px;
   border: 1px solid white;
@@ -74,7 +70,7 @@ header {
   margin-right: 10px;
 }
 
-.col-cent{
+.col-cent {
   width: 50%;
   height: 350px;
 }
@@ -87,44 +83,42 @@ header {
   height: 200px;
   margin: 0 10px;
 }
-
-
-
-.sez1{
+/* ATTRIBUTI SEZIONI DX */
+.sez1 {
   height: 250px;
   border: 1px solid black;
   border-radius: 15px;
-  background: #white;
+  background: white;
   margin-bottom: 15px;
   padding: 5px;
   margin-left: 10px;
 }
 
-.sez2{
+.sez2 {
   height: 250px;
   border: 1px solid black;
   border-radius: 15px;
-  background: #white;
+  background: white;
   margin-bottom: 15px;
   padding: 5px;
   margin-left: 10px;
 }
 
-.sez3{
+.sez3 {
   height: 250px;
   border: 1px solid black;
   border-radius: 15px;
-  background: #white;
+  background: white;
   margin-bottom: 15px;
   padding: 5px;
   margin-left: 10px;
 }
 
-.col-dx{
+.col-dx {
   width: 25%;
 }
-
-.foot{
+/* FOOTER */
+.foot {
   width: 100%;
   height: 100px;
   background: white;
