@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+ #menu {
+   height: 30px
+   background-color: white;
+ }
+
+#ok {
+  background-image: image('/img/sfondo.jpg');
+  
+
+}
+.main-header {
+  height: 300px;
+  background: red;
+  padding: 20px;
+}
+
+.col-sx,
+.col-cent,
+.col-dx {
+ float: left;
+ padding: 0 16px;
+}
+
+.col-sx {
+  height: 400px;
+  background: green;
+  width: 25%;
+  padding: 20px;
+
+
+}
+
+.col-cent {
+  height: 400px;
+  background: blue;
+  width: 40%;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding: 20px;
+
+}
+
+.sidebar  {
+
+}
+.col-dx {
+  height: 400px;
+  background: white;
+  width: 25%;
+  padding: 20px;
+
+}
+
+
+.main-footer {
+  background: pink;
+  padding: 20px;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* .division {
+
+  width: 50%;
+  max-width: 100%;
+  float: left; */
+
+}
+
+.lista{
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: normal;
+
+}
+
+/* .clearfix {
+  min-height: 200px;
+} */
+
+.mini {
+  margin-top: 20px;
+  background: grey;
+  height: 200px;
+}
