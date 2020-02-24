@@ -2,93 +2,133 @@
   margin: 0;
   box-sizing: border-box;
 }
- #menu {
-   height: 30px
-   background-color: white;
- }
 
-#ok {
-  background-image: image('/img/sfondo.jpg');
-  
-
-}
-.main-header {
-  height: 300px;
-  background: red;
-  padding: 20px;
+#layout {
+  width: 50%;
+  margin: 10px auto;
 }
 
-.col-sx,
-.col-cent,
-.col-dx {
- float: left;
- padding: 0 16px;
+body {
+  background: grey;
+  margin: auto;
+  width: 80%;
 }
 
-.col-sx {
-  height: 400px;
+header {
+  padding-top: 5px;
+}
+
+
+
+#img_sfondo{
+  height: 250px;
   background: green;
-  width: 25%;
-  padding: 20px;
-
-
+  border: 6px solid black;
 }
 
-.col-cent {
-  height: 400px;
-  background: blue;
-  width: 40%;
-  margin-right: 5%;
-  margin-left: 5%;
-  padding: 20px;
-
+.menutab li {
+  display: inline-block;
+  vertical-align: middle;
 }
 
-.sidebar  {
-
-}
-.col-dx {
-  height: 400px;
-  background: white;
-  width: 25%;
-  padding: 20px;
-
+.menutab a{
+  display: inline-block;
+  margin:0 5px;
+  color: black;
 }
 
-
-.main-footer {
-  background: pink;
-  padding: 20px;
+#menu {
+  margin: 0 auto;
+  background: purple;
+  line-height: 50px;
+  text-align: center;
 }
 
-.clearfix::after {
-  content: '';
+.clearfix{
+  content:'';
   display: table;
   clear: both;
 }
 
-/* .division {
+.main-header {
+  width: 100%;
+  margin: 10px auto;
+}
 
+.col-sx,
+.col-cent,
+.col-dx{
+  float: left;
+}
+
+.col-sx{
+  width: 25%;
+}
+
+.sidebar{
+  background: brown;
+  border-radius: 15px;
+  border: 1px solid white;
+  padding: 5px;
+  height: 450px;
+  margin-right: 10px;
+}
+
+.col-cent{
   width: 50%;
-  max-width: 100%;
-  float: left; */
-
+  height: 350px;
 }
 
-.lista{
-  display: inline-block;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  line-height: normal;
-
-}
-
-/* .clearfix {
-  min-height: 200px;
-} */
-
-.mini {
-  margin-top: 20px;
-  background: grey;
+.testo-cent {
+  border: 1px solid black;
+  border-radius: 15px;
+  background: darkgreen;
+  padding: 5px;
   height: 200px;
+  margin: 0 10px;
+}
+
+
+
+.sez1{
+  height: 250px;
+  border: 1px solid black;
+  border-radius: 15px;
+  background: #white;
+  margin-bottom: 15px;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.sez2{
+  height: 250px;
+  border: 1px solid black;
+  border-radius: 15px;
+  background: #white;
+  margin-bottom: 15px;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.sez3{
+  height: 250px;
+  border: 1px solid black;
+  border-radius: 15px;
+  background: #white;
+  margin-bottom: 15px;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.col-dx{
+  width: 25%;
+}
+
+.foot{
+  width: 100%;
+  height: 100px;
+  background: white;
+  border-radius: 15px;
+  margin: 0 auto;
+  padding: 5px;
 }
