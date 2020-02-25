@@ -56,8 +56,9 @@ body {
 
 .main-nav {
   height: 60px;
-  background: grey;
+  background: #756F6E;
   text-align: center;
+  font-weight: bold;
 }
 
 #navbar {
@@ -68,6 +69,39 @@ body {
 #navbar li {
   display: inline-block;
   line-height: 60px;
+  font-family: 'Montserrat';
+}
+
+#txt {
+  font-family: 'Montserrat';
+}
+
+.box {
+border-radius: 1%;
+}
+
+.box p {
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.col.sez-2 h2 {
+  margin-bottom: 40px;
+}
+
+.col.sez-3 h2 {
+  margin-bottom: 40px;
+}
+ .col.sez-1 p {
+   color: green;
+ }
+
+.rss {
+  float: left;
+  font-size: 30px;
+  background-color: orange;
+  margin-right: 5px;
+
 }
 
 a {
@@ -76,7 +110,9 @@ a {
   padding: 10px;
 }
 
-
+h2 {
+  color: #575150;
+}
 
 .col {
   float: left;
@@ -98,7 +134,9 @@ a {
 .box {
   width: 100%;
   margin-bottom: 32px;
-  background: #ccc;
+  background: white;
+  padding: 20px;
+  font-family: 'Roboto';
 }
 
 .main-footer {
@@ -111,10 +149,13 @@ a {
   background: white;
   line-height: 40px;
   color: grey;
+  font-family: 'Roboto';
+  font-style: italic;
 }
 
 .social {
   padding: 0;
+  margin-bottom: 30px;
 }
 
 .social li {
