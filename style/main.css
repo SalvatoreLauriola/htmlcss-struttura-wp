@@ -60,9 +60,14 @@ body {
   text-align: center;
 }
 
-.navbar {
-  text-decoration: none;
+#navbar {
+  list-style: none;
 }
+
+#navbar li {
+  display: inline-block;
+}
+
 
 
 
