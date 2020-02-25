@@ -5,6 +5,7 @@
 
 body {
   background-image: url('../img/sfondo.png');
+  margin: 0;
 }
 
 #contenitore {
@@ -30,7 +31,7 @@ body {
    background-size: cover;
    background-position: center;
    position: relative;
-   margin-top: 50px;
+   margin-top: 30px;
    border: 10px solid white;
 }
 
@@ -142,20 +143,25 @@ h2 {
 .main-footer {
   text-align: center;
   height: 40px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  background: white;
 }
 
 .testo-footer {
   height: 40px;
-  background: white;
   line-height: 40px;
   color: grey;
   font-family: 'Roboto';
   font-style: italic;
+  border-bottom: 1px solid grey;
 }
 
 .social {
   padding: 0;
   margin-bottom: 30px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
 .social li {
